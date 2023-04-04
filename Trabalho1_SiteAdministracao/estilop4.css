@@ -1,0 +1,85 @@
+/*estilop4.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
+
+body{
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("liderarBack.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+    
+    /*background-color: rgb(209, 139, 19);*/
+
+}
+
+#menu{   
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+#liderar{
+    width: 100%;
+    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: none;
+    text-align: center;
+    
+}
+
+#textoLid{
+    grid-area: textoLid;
+    margin: auto ;
+    background-color: rgba(30, 227, 79, 0.7);
+    text-align: center;
+    margin-left: 50px;
+    padding: 2em;
+    margin-right: 100px;
+    margin-top: 2em;
+    color: #24013b;
+    font-size: 20px;  
+    width: 300px;  
+}
+
+#fotoLiderar img{
+    grid-area: fotoLiderar;
+    padding: 2em;
+    margin-left: 100px;
+    width: 40rem;
+    
+}

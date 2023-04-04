@@ -1,0 +1,95 @@
+/*estilop2.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
+
+body{
+    /*background-color: rgb(65, 28, 4);
+    height: 200vh;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("planning2.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+
+
+#menu{    
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: rgb(32, 2, 49);
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+#processo{
+    background-color: rgba(30, 227, 79, 0.4);
+    text-align: center;
+    margin-top: 10em;
+    margin-left: 2em;
+    padding: 1em;
+    color: #24013b;
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    color: #cc9900;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+th{
+   font-size: 40px;
+   text-align: center;
+   padding-bottom: 0.5em;
+   
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(79, 2, 25,0.5);
+
+}
+
+tr{
+    height: 50px;
+    margin-left: 10em;
+    font-size: 25px;
+}
+
+
+tr:hover {
+    background-color: rgb(227,72,30,0.5);
+}
+

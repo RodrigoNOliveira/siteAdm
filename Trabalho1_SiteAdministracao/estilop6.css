@@ -1,0 +1,81 @@
+/*estilop6.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
+
+body{
+    
+    /*font-family: Truculenta;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("backVideo.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+    
+    /*background-color: rgb(209, 139, 19);*/
+
+}
+
+#menu{   
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+#corpo{
+    /* background-color: rgb(134, 134, 134); */
+    color: rgb(255, 255, 255);
+    padding: 4em;
+    margin: 1em;
+    min-width: 60vw;
+    max-width: 75vw;
+    min-height: 85vh;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#corpo video{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    margin: 2vh;
+    padding: 2vh;
+    width: 40vw;
+    height: 80vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+} 
+
+#corpo video:hover{
+    
+    border-radius: 0;
+    
+} 
