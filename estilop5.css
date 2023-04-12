@@ -1,18 +1,17 @@
-/*estilop3.css*/
-
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
 
 body{
     
     /*font-family: Truculenta;*/
-
+    
     height: auto;
     font-family: 'Skranji', cursive;
 
-    background-image: url("organize.jpeg");
+    background-image: url("controle.jpg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    
     display: flex;
     align-items:center;
     justify-content: center;
@@ -27,6 +26,7 @@ body{
     position: absolute;
     top: 0;
     z-index: 100;
+   
 }
 
 #menu ul{
@@ -41,7 +41,7 @@ a:link{
 
 #menu ul li{
     display:inline-block;
-    background-color: rgb(32, 2, 49);
+    background-color: #800000;
     color: #cc9900 ;
     border-radius: 15px;
     padding: 0.5em 0.5em;
@@ -50,39 +50,68 @@ a:link{
     
 }
 
-
-#grade_texto{
+#controle{
     width: 100%;
     /*margin: 0 auto;*/
-    
-    display: grid;
-    grid-template-areas: 
-    "maior     foto1"
-    "maior     foto1"
-    ;
-}
-
-#maior{
-    grid-area: maior;
-    margin: auto ;
-    background-color: rgba(30, 227, 79, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: none;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 5em;
-    color: #24013b;
-    font-size: 30px;    
+    
 }
 
-#foto1{
-    grid-area: foto1;
+#texto{
+    margin: auto ;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-left: 50px;
     padding: 2em;
     margin-right: 100px;
-    
+    margin-top: 2em;
+    color: #000000;
+    font-size: 20px;  
+    width: 400px;  
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
 }
 
 
 
+table{
+    background-color: white;
+    border-radius: 20px;
+    border-collapse: collapse;
+    color: #000000;
+    margin-right: 100px;
+    width: 500px;
+    
+}
+
+th{
+   font-size: 30px;
+   text-align: center;
+   padding-bottom: 0.5em;
+  
+   
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+  
+    background-color: rgba(2, 34, 79, 0.5);
+
+}
+
+tr{
+    height: 50px;
+    margin-left: 10em;
+    font-size: 25px;
+}
 
 
-
+tr:hover {
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+  
+}

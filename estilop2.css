@@ -54,8 +54,10 @@ a:link{
 #processo{
     background-color: rgba(30, 227, 79, 0.4);
     text-align: center;
-    margin-top: 10em;
-    margin-left: 2em;
+    width: 50%;
+    margin-top: 3em;
+    margin-left: 0.2em;
+    margin-right: 5em;
     padding: 1em;
     color: #24013b;
     font-size: 20px;
@@ -65,8 +67,8 @@ table{
     border-collapse: collapse;
     color: #cc9900;
     margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 60px;
+    margin-right: 80px;
 }
 
 th{
@@ -85,7 +87,7 @@ td {
 tr{
     height: 50px;
     margin-left: 10em;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 

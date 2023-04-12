@@ -8,7 +8,6 @@
 body{
     /*background-color: rgb(65, 28, 4);*/
     height: 115vh;
-    padding: 4em;
     
     font-family: 'Skranji', cursive;
 
@@ -56,16 +55,14 @@ a:link{
 
 
 #definicoes{
-
    background-color: rgba(30, 227, 79, 0.5);
    position:absolute;
-   top:initial;
+   top: 15%;
    left: 20px;
-   width: 350px;
+   width: 300px;
    color: rgb(32, 2, 49);
    padding: 1em;
    font-size: 20px;
-   
 
 }
 

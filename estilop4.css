@@ -1,19 +1,14 @@
-/*estilop5.css*/
-
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
 
 body{
-    
-    /*font-family: Truculenta;*/
-    
+
     height: auto;
     font-family: 'Skranji', cursive;
 
-    background-image: url("controle.jpg");
+    background-image: url("liderarBack.jpg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    
     display: flex;
     align-items:center;
     justify-content: center;
@@ -28,7 +23,7 @@ body{
     position: absolute;
     top: 0;
     z-index: 100;
-   
+
 }
 
 #menu ul{
@@ -52,7 +47,7 @@ a:link{
     
 }
 
-#controle{
+#liderar{
     width: 100%;
     /*margin: 0 auto;*/
     display: flex;
@@ -65,55 +60,24 @@ a:link{
     
 }
 
-#texto{
+#textoLid{
+    grid-area: textoLid;
     margin: auto ;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(30, 227, 79, 0.7);
     text-align: center;
     margin-left: 50px;
     padding: 2em;
     margin-right: 100px;
     margin-top: 2em;
-    color: #000000;
+    color: #24013b;
     font-size: 20px;  
-    width: 400px;  
-    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+    width: 300px;  
 }
 
-
-
-table{
-    background-color: white;
-    border-radius: 20px;
-    border-collapse: collapse;
-    color: #000000;
-    margin-right: 100px;
-    width: 500px;
+#fotoLiderar img{
+    grid-area: fotoLiderar;
+    padding: 2em;
+    margin-left: 100px;
+    width: 40rem;
     
-}
-
-th{
-   font-size: 30px;
-   text-align: center;
-   padding-bottom: 0.5em;
-  
-   
-}
-
-td {
-    border-bottom: 1px solid #ddd;
-  
-    background-color: rgba(2, 34, 79, 0.5);
-
-}
-
-tr{
-    height: 50px;
-    margin-left: 10em;
-    font-size: 25px;
-}
-
-
-tr:hover {
-    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
-  
 }

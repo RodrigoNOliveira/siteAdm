@@ -1,16 +1,19 @@
-/*estilop4.css*/
+/*estilop3.css*/
 
 @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
 
 body{
+    
+    /*font-family: Truculenta;*/
 
     height: auto;
     font-family: 'Skranji', cursive;
 
-    background-image: url("liderarBack.jpg");
+    background-image: url("organize.jpeg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    
     display: flex;
     align-items:center;
     justify-content: center;
@@ -25,7 +28,6 @@ body{
     position: absolute;
     top: 0;
     z-index: 100;
-
 }
 
 #menu ul{
@@ -40,7 +42,7 @@ a:link{
 
 #menu ul li{
     display:inline-block;
-    background-color: #800000;
+    background-color: rgb(32, 2, 49);
     color: #cc9900 ;
     border-radius: 15px;
     padding: 0.5em 0.5em;
@@ -49,37 +51,45 @@ a:link{
     
 }
 
-#liderar{
+
+#grade_texto{
     width: 100%;
     /*margin: 0 auto;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    box-shadow: none;
-    text-align: center;
     
+    display: grid;
+    grid-template-areas: 
+    "maior     foto1"
+    "maior     foto1"
+    ;
 }
 
-#textoLid{
-    grid-area: textoLid;
+#maior{
+    grid-area: maior;
     margin: auto ;
     background-color: rgba(30, 227, 79, 0.7);
     text-align: center;
-    margin-left: 50px;
-    padding: 2em;
-    margin-right: 100px;
-    margin-top: 2em;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 5em;
     color: #24013b;
-    font-size: 20px;  
-    width: 300px;  
+    font-size: 25px;    
 }
 
-#fotoLiderar img{
-    grid-area: fotoLiderar;
+#foto1{
+    grid-area: foto1;
     padding: 2em;
-    margin-left: 100px;
-    width: 40rem;
+    margin-right: 100px;
     
 }
+
+#foto2{
+    grid-area: foto2;
+    padding: 0.5em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+
+
+
+

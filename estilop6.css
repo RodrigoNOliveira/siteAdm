@@ -1,6 +1,6 @@
 /*estilop6.css*/
 
-@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 
 body{
     
@@ -9,7 +9,7 @@ body{
     height: auto;
     font-family: 'Skranji', cursive;
 
-    background-image: url("backVideo.jpg");
+    background-image: url("dnight.jpeg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,31 +51,43 @@ a:link{
     
 }
 
-#corpo{
-    /* background-color: rgb(134, 134, 134); */
-    color: rgb(255, 255, 255);
-    padding: 4em;
-    margin: 1em;
-    min-width: 60vw;
-    max-width: 75vw;
-    min-height: 85vh;
-    position: relative;
-    border-radius: 20px;
-    text-align: center;
+#album1{
+    display: inline-flex;
+    padding: 1em;
 }
 
-#corpo video{
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 25px;
-    margin: 2vh;
-    padding: 2vh;
-    width: 40vw;
-    height: 80vh;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
-} 
+p{
+    padding: 0em 2em 2em 2em;
+    text-align: justify;
+    color:gold ;
+}
 
-#corpo video:hover{
-    
-    border-radius: 0;
-    
-} 
+#album2{
+    display: inline-flex;
+    padding: 1em;
+}
+
+#album3{
+    display: inline-flex;
+    padding: 1em;
+}
+
+#album4{
+    display: inline-flex;
+    padding: 1em;
+}
+
+#album5{
+    display: inline-flex;
+    padding: 1em;
+}
+
+#album6{
+    display: inline-flex;
+    padding: 1em;
+}
+
+#album7{
+    display: inline-flex;
+    padding: 1em;
+}
